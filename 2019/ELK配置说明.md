@@ -53,6 +53,13 @@ cd nginx-1.15.8.tar.gz
 ./configure 
 make && make install
 
+cd pcre-8.36.tar.gz
+./configure 
+make && make install
+
+cd pcre-8.36.tar.gz
+./configure 
+make && make install
 
 ##### Elasticsearch:
 `cd elasticsearch`
