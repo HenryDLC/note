@@ -77,4 +77,39 @@ elasticsearch.hosts: ["http://172.21.0.9:9200"]
 #elasticsearch.requestHeadersWhitelist: [ authorization ]
 
 # Header names and values that are sent to Elasticsearch. Any custom headers cannot be overwritten
+#by client-side headers, regardless of the elasticsearch.requestHeadersWhitelist configuration.
+#elasticsearch.customHeaders: {}
+
+# Time in milliseconds for Elasticsearch to wait for responses from shards. Set to 0 to disable.
+#elasticsearch.shardTimeout: 30000
+
+# Time in milliseconds to wait for Elasticsearch at Kibana startup before retrying.
+#elasticsearch.startupTimeout: 5000
+
+# Logs queries sent to Elasticsearch. Requires logging.verbose set to true.
+#elasticsearch.logQueries: false
+
+# Specifies the path where Kibana creates the process ID file.
+#pid.file: /var/run/kibana.pid
+
+# Enables you specify a file where Kibana stores log output.
+#logging.dest: stdout
+
+# Set the value of this setting to true to suppress all logging output.
+#logging.silent: false
+
+# Set the value of this setting to true to suppress all logging output other than error messages.
+#logging.quiet: false
+
+# Set the value of this setting to true to log all events, including system usage information
+# and all requests.
+#logging.verbose: false
+
+# Set the interval in milliseconds to sample system and process performance
+# metrics. Minimum is 100ms. Defaults to 5000.
+#ops.interval: 5000
+
+# Specifies locale to be used for all localizable strings, dates and number formats.
+#i18n.locale: "en"
+                                                                                                                                                                                                                         113,1         Bot
 </pre><p><br></p>
