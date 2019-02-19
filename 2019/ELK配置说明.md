@@ -32,7 +32,8 @@ geoip
 
 > nginx:
 `wget http://nginx.org/download/nginx-1.15.8.tar.gz`
-``
+`wget https://ftp.pcre.org/pub/pcre/pcre-8.36.tar.gz`
+`wget `
 
 
 #### 解压:
