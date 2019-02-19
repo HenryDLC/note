@@ -98,7 +98,10 @@ elasticsearch.hosts: ["http://172.21.0.9:9200"]
 
 #### 启动
 > nginx:
-`service nginx start|stop|reload`
+sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
+注意：-c 指定配置文件的路径，不加的话，nginx会自动加载默认路径的配置文件，可以通过-h查看帮助命令。
+#查看进程：
+ps -ef | grep nginx
 
 > Elasticsearch:
 `bin/elasticsearch -d
@@ -153,38 +156,3 @@ sudo apt-get autoremove # 在上面命令结束后执行，主要是卸载删除
 sudo apt-get remove nginx-full nginx-common #卸载删除两个主要的包。
 sudo service nginx restart  #重启nginx检测是否存在
 ```
-
-
-make[3]: Leaving directory '/home/ubuntu/nginx/pcre-8.36'
-make[2]: Leaving directory '/home/ubuntu/nginx/pcre-8.36'
-make[1]: Leaving directory '/home/ubuntu/nginx/pcre-8.36'
-
-cp zlib.h zconf.h /usr/local/include
-chmod 644 /usr/local/include/zlib.h /usr/local/include/zconf.h
-
-
-
-
-  nginx path prefix: "/usr/local/nginx"
-  nginx binary file: "/usr/local/nginx/sbin/nginx"
-  nginx modules path: "/usr/local/nginx/modules"
-  nginx configuration prefix: "/usr/local/nginx/conf"
-  nginx configuration file: "/usr/local/nginx/conf/nginx.conf"
-  nginx pid file: "/usr/local/nginx/logs/nginx.pid"
-  nginx error log file: "/usr/local/nginx/logs/error.log"
-  nginx http access log file: "/usr/local/nginx/logs/access.log"
-  nginx http client request body temporary files: "client_body_temp"
-  nginx http proxy temporary files: "proxy_temp"
-  nginx http fastcgi temporary files: "fastcgi_temp"
-  nginx http uwsgi temporary files: "uwsgi_temp"
-  nginx http scgi temporary files: "scgi_temp"
-
-
--ldl -lpthread -lcrypt /home/ubuntu/nginx/pcre-8.36/.libs/libpcre.a /home/ubuntu/nginx/zlib-1.2.11/libz.a \
--Wl,-E
-sed -e "s|%%PREFIX%%|/usr/local/nginx|" \
-        -e "s|%%PID_PATH%%|/usr/local/nginx/logs/nginx.pid|" \
-        -e "s|%%CONF_PATH%%|/usr/local/nginx/conf/nginx.conf|" \
-        -e "s|%%ERROR_LOG_PATH%%|/usr/local/nginx/logs/error.log|" \
-        < man/nginx.8 > objs/nginx.8
-make[1]: Leaving directory '/home/ubuntu/nginx/nginx-1.15.8'
