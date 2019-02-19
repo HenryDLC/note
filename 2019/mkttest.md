@@ -47,6 +47,7 @@ path.data: /home/ubuntu/ekl/elasticsearch-6.6.0/data
 path.logs: /home/ubuntu/ekl/elasticsearch-6.6.0/logs
 network.host: 172.21.0.9
 http.port: 9200
+
 ```
 
 ```
