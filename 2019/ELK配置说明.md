@@ -155,3 +155,13 @@ chmod 644 /usr/local/include/zlib.h /usr/local/include/zconf.h
   nginx http fastcgi temporary files: "fastcgi_temp"
   nginx http uwsgi temporary files: "uwsgi_temp"
   nginx http scgi temporary files: "scgi_temp"
+
+
+-ldl -lpthread -lcrypt /home/ubuntu/nginx/pcre-8.36/.libs/libpcre.a /home/ubuntu/nginx/zlib-1.2.11/libz.a \
+-Wl,-E
+sed -e "s|%%PREFIX%%|/usr/local/nginx|" \
+        -e "s|%%PID_PATH%%|/usr/local/nginx/logs/nginx.pid|" \
+        -e "s|%%CONF_PATH%%|/usr/local/nginx/conf/nginx.conf|" \
+        -e "s|%%ERROR_LOG_PATH%%|/usr/local/nginx/logs/error.log|" \
+        < man/nginx.8 > objs/nginx.8
+make[1]: Leaving directory '/home/ubuntu/nginx/nginx-1.15.8'
