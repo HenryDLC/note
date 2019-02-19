@@ -52,22 +52,7 @@ http.port: 9200
 
 ```
 
-```
-elasticsearch启动时遇到的错误
-问题翻译过来就是：elasticsearch用户拥有的内存权限太小，至少需要262144；
-解决：
-切换到root用户
-执行命令：
-sysctl -w vm.max_map_count=262144
-查看结果：
-sysctl -a|grep vm.max_map_count
-显示：
-vm.max_map_count = 262144
-上述方法修改之后，如果重启虚拟机将失效，所以：
-解决办法：
-在  /etc/sysctl.conf文件最后添加一行
-vm.max_map_count=262144
-```
+
 
 ##### Kibana:
 
@@ -89,19 +74,44 @@ vm.max_map_count=262144
 
 > nginx:
 `service nginx start|stop|reload`
+
+### 其他组件
+
+
+
+
+
+
+
+##其他相关
 ```
 注意:
 不能用root用户启动Elasticsearch
 ```
-### 其他组件
-##其他相关
+
+```
+elasticsearch启动时遇到的错误
+问题翻译过来就是：elasticsearch用户拥有的内存权限太小，至少需要262144；
+解决：
+切换到root用户
+执行命令：
+sysctl -w vm.max_map_count=262144
+查看结果：
+sysctl -a|grep vm.max_map_count
+显示：
+vm.max_map_count = 262144
+上述方法修改之后，如果重启虚拟机将失效，所以：
+解决办法：
+在  /etc/sysctl.conf文件最后添加一行
+vm.max_map_count=262144
+```
+
+
 > 卸载nginx
 ```
 sudo apt-get remove nginx nginx-common # 卸载删除除了配置文件以外的所有文件。
 sudo apt-get purge nginx nginx-common # 卸载所有东东，包括删除配置文件。
-
-    sudo apt-get autoremove # 在上面命令结束后执行，主要是卸载删除Nginx的不再被使用的依赖包。
-
-    sudo apt-get remove nginx-full nginx-common #卸载删除两个主要的包。
-
-　　sudo service nginx restart  #重启nginx```
+sudo apt-get autoremove # 在上面命令结束后执行，主要是卸载删除Nginx的不再被使用的依赖包。
+sudo apt-get remove nginx-full nginx-common #卸载删除两个主要的包。
+sudo service nginx restart  #重启nginx
+```
