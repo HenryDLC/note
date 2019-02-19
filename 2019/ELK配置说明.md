@@ -33,13 +33,16 @@ geoip
 > nginx:
 `wget http://nginx.org/download/nginx-1.15.8.tar.gz`
 `wget https://ftp.pcre.org/pub/pcre/pcre-8.36.tar.gz`
-`wget `
+`wget http://www.zlib.net/zlib-1.2.11.tar.gz`
 
 
 #### 解压:
 `tar -xzvf elasticsearch-6.6.0.tar.gz`
 `tar -xzvf kibana-6.6.0-linux-x86_64.tar.gz`
 `tar -xzvf logstash-6.6.0.tar.gz`
+`tar -xzvf `
+`tar -xzvf `
+``
 
 #### 配置:
 
