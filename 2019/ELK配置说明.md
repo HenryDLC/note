@@ -42,13 +42,16 @@ geoip
 `tar -xzvf logstash-6.6.0.tar.gz`
 
 
-#### 安装配置:
+#### 安装&配置:
 
 ##### nginx:
 ###### 安装依赖
 `tar -xzvf nginx-1.15.8.tar.gz`
 `tar -xzvf pcre-8.36.tar.gz`
 `tar -xzvf zlib-1.2.11.tar.gz`
+cd nginx-1.15.8.tar.gz
+./configure 
+make && make install
 
 
 ##### Elasticsearch:
