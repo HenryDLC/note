@@ -134,3 +134,7 @@ sudo service nginx restart  #重启nginx检测是否存在
 
 make[2]: Leaving directory '/home/ubuntu/nginx/pcre2-10.32'
 make[1]: Leaving directory '/home/ubuntu/nginx/pcre2-10.32'
+
+cp zlib.h zconf.h /usr/local/include
+chmod 644 /usr/local/include/zlib.h /usr/local/include/zconf.h
+
