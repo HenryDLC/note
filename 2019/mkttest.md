@@ -72,6 +72,7 @@ http.port: 9200
 >cluster.name: elk
 ```yml
 server.host: "172.21.0.9"
+elasticsearch.hosts: ["http://172.21.0.9:9200"]
 
 
 ```
