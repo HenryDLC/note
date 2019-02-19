@@ -8,8 +8,12 @@ Kibana
 Logstash
 其他配置:
 redis
+Beats
 geoip
 
 安装:
+nginx:
+codesudo apt-get install nginx
+
 配置:
 其他组件
