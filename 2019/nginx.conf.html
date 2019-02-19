@@ -1,6 +1,4 @@
-<attachment contenteditable="false" data-atts="%5B%5D" data-aid=".atts-d488e79c-6348-4e09-b542-f18180f6227a"></attachment><pre class="ql-syntax" spellcheck="false">
-
-#user  nobody;
+<attachment contenteditable="false" data-atts="%5B%5D" data-aid=".atts-d488e79c-6348-4e09-b542-f18180f6227a"></attachment><pre class="ql-syntax" spellcheck="false">#user  nobody;
 worker_processes  1;
 
 #error_log  logs/error.log;
@@ -19,11 +17,11 @@ http {
     include       mime.types;
     default_type  application/octet-stream;
 
-    #log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
-    #                  '$status $body_bytes_sent "$http_referer" '
-    #                  '"$http_user_agent" "$http_x_forwarded_for"';
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
 
-    #access_log  logs/access.log  main;
+    access_log  logs/access.log  main;
 
     sendfile        on;
     #tcp_nopush     on;
@@ -35,7 +33,7 @@ http {
 
     server {
         listen       80;
-        server_name  localhost;
+        server_name  elk;
 
         #charset koi8-r;
 
