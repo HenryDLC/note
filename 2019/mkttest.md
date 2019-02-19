@@ -14,12 +14,17 @@ geoip
 ### 安装:
 > java8:
 `apt search openjdk`
+`sudo apt-get install openjdk-8-jdk`
+
+> Elasticsearch:
 `sudo apt-get install nginx`
 
-> nginx:
+> Kibana:
 `sudo apt-get install nginx`
 
-> nginx:
+> Kibana:
+`sudo apt-get install nginx`> Kibana:
+`sudo apt-get install nginx`> Kibana:
 `sudo apt-get install nginx`
 
 ### 配置:
