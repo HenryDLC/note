@@ -12,7 +12,15 @@ Beats
 geoip
 
 ### 安装:
-nginx
+> java8:
+`apt search open-java`
+`sudo apt-get install nginx`
+
+> nginx:
+`sudo apt-get install nginx`
+
+> nginx:
+`sudo apt-get install nginx`
 
 ### 配置:
 其他组件
