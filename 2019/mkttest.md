@@ -73,7 +73,7 @@ vm.max_map_count=262144
 
 ##### Logstash:
 
-> nginx:
+##### nginx:
 
 
 #### 启动
