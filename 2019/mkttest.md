@@ -48,12 +48,7 @@ path.logs: /home/ubuntu/ekl/elasticsearch-6.6.0/logs
 network.host: 172.21.0.9
 http.port: 9200
 ```
-```
-主意:
-不能用root用户启动Elasticsearch
-打开文件数
 
-```
 ```
 elasticsearch启动时遇到的错误
 问题翻译过来就是：elasticsearch用户拥有的内存权限太小，至少需要262144；
@@ -81,5 +76,9 @@ vm.max_map_count=262144
 `sudo apt-get install nginx`
 
 
-
+#### 启动
+```
+注意:
+不能用root用户启动Elasticsearch
+```
 ### 其他组件
