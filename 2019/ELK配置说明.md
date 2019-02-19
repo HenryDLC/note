@@ -105,7 +105,7 @@ sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 ps -ef | grep nginx
 
 > Elasticsearch:
-`bin/elasticsearch -Xmx10g -Xms10g -d
+`bin/elasticsearch -Xmx2g -Xms2g -d
 `
 > Logstash:
 > 参考https://www.elastic.co/guide/en/logstash/current/config-examples.html
