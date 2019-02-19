@@ -105,7 +105,8 @@ sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 ps -ef | grep nginx
 
 > Elasticsearch:
-`bin/elasticsearch -Xmx2g -Xms2g -d
+> export ES_HEAP_SIZE=10g
+`bin/elasticsearch  -d
 `
 > Logstash:
 > 参考https://www.elastic.co/guide/en/logstash/current/config-examples.html
