@@ -83,15 +83,10 @@ http.port: 9200
 
 
 
-##其他相关
+## 其他相关
 ```
-注意:
-不能用root用户启动Elasticsearch
-```
-
-```
-elasticsearch启动时遇到的错误
-问题翻译过来就是：elasticsearch用户拥有的内存权限太小，至少需要262144；
+[1]不能用root用户启动Elasticsearch
+[2]elasticsearch用户拥有的内存权限太小，至少需要262144；
 解决：
 切换到root用户
 执行命令：
