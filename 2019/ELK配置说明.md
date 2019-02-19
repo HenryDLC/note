@@ -49,7 +49,7 @@ geoip
 `tar -xzvf nginx-1.15.8.tar.gz`
 `tar -xzvf pcre-8.36.tar.gz`
 `tar -xzvf zlib-1.2.11.tar.gz`
-> pcre
+> 安装pcre
 cd pcre-8.36
 ./configure 
 make && make install
@@ -59,7 +59,7 @@ cd zlib-1.2.11
 ./configure 
 make && make install
 
-> nginx
+> 安装nginx
 cd nginx-1.15.8
 ./configure ./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre-8.36 --with-zlib=/home/ubuntu/nginx/zlib-1.2.11
 make && make install
@@ -69,7 +69,7 @@ make && make install
 ##### Elasticsearch:
 `cd elasticsearch`
 `sudo vim elasticsearch-6.6.0/config/elasticsearch.yml`
->cluster.name: elk
+cluster.name: elk
 ```yml
 node.name: node-1
 path.data: /home/ubuntu/ekl/elasticsearch-6.6.0/data
