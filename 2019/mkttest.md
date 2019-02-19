@@ -73,8 +73,6 @@ http.port: 9200
 ```yml
 server.host: "172.21.0.9"
 elasticsearch.hosts: ["http://172.21.0.9:9200"]
-
-
 ```
 
 > Logstash:
