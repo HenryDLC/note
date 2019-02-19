@@ -80,6 +80,18 @@ vm.max_map_count=262144
 
 
 #### 启动
+> Elasticsearch:
+`bin/elasticsearch -d
+`
+
+> Kibana:
+`https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
+
+> Logstash:
+`https://artifacts.elastic.co/downloads/logstash/logstash-6.6.0.tar.gz`
+
+> nginx:
+`sudo apt-get install nginx`
 ```
 注意:
 不能用root用户启动Elasticsearch
