@@ -138,4 +138,4 @@ make[1]: Leaving directory '/home/ubuntu/nginx/pcre2-10.32'
 cp zlib.h zconf.h /usr/local/include
 chmod 644 /usr/local/include/zlib.h /usr/local/include/zconf.h
 
-./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre2-10.32 -with-zlib=/home/ubuntu/nginx/pcre2-10.32 with
+./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre2-10.32 -with-zlib=/home/ubuntu/nginx/zlib-1.2.11
