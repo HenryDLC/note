@@ -40,13 +40,15 @@ geoip
 `tar -xzvf elasticsearch-6.6.0.tar.gz`
 `tar -xzvf kibana-6.6.0-linux-x86_64.tar.gz`
 `tar -xzvf logstash-6.6.0.tar.gz`
+
+
+#### 安装配置:
+
+##### nginx:
+###### 安装依赖
 `tar -xzvf nginx-1.15.8.tar.gz`
 `tar -xzvf pcre-8.36.tar.gz`
 `tar -xzvf zlib-1.2.11.tar.gz`
-
-#### 配置:
-
-##### nginx:
 
 
 ##### Elasticsearch:
