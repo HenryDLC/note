@@ -69,8 +69,8 @@ make && make install
 ##### Elasticsearch:
 `cd elasticsearch`
 `sudo vim elasticsearch-6.6.0/config/elasticsearch.yml`
-cluster.name: elk
 ```yml
+cluster.name: elk
 node.name: node-1
 path.data: /home/ubuntu/ekl/elasticsearch-6.6.0/data
 path.logs: /home/ubuntu/ekl/elasticsearch-6.6.0/logs
