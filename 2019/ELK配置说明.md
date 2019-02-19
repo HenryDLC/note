@@ -53,10 +53,18 @@ geoip
 cd pcre-8.36
 ./configure 
 make && make install
-> zlib
+
+> 安装zlib
 cd zlib-1.2.11
 ./configure 
 make && make install
+
+> nginx
+cd nginx-1.15.8
+./configure ./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre-8.36 --with-zlib=/home/ubuntu/nginx/zlib-1.2.11
+make && make install
+
+
 
 ##### Elasticsearch:
 `cd elasticsearch`
@@ -154,7 +162,7 @@ make[1]: Leaving directory '/home/ubuntu/nginx/pcre-8.36'
 cp zlib.h zconf.h /usr/local/include
 chmod 644 /usr/local/include/zlib.h /usr/local/include/zconf.h
 
-./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre-8.36 --with-zlib=/home/ubuntu/nginx/zlib-1.2.11
+
 
 
   nginx path prefix: "/usr/local/nginx"
