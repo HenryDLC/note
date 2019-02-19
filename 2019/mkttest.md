@@ -20,10 +20,10 @@ geoip
 `wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.tar.gz`
 
 > Kibana:
-`sudo apt-get install nginx`
+`https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
 
 > Logstash:
-`sudo apt-get install nginx`
+`https://artifacts.elastic.co/downloads/logstash/logstash-6.6.0.tar.gz`
 
 > nginx:
 `sudo apt-get install nginx`
