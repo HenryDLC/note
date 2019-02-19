@@ -14,6 +14,7 @@ Beats
 geoip
 
 ### 安装:
+#### 下载:
 > java8:
 `apt search openjdk`
 `sudo apt-get install openjdk-8-jdk`
@@ -47,8 +48,7 @@ path.logs: /home/ubuntu/ekl/elasticsearch-6.6.0/logs
 network.host: 172.21.0.9
 http.port: 9200
 ```
-
-
+```
 
 > Kibana:
 `https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
