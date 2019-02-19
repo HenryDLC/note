@@ -36,17 +36,19 @@ geoip
 `tar -xzvf logstash-6.6.0.tar.gz`
 
 #### 配置:
-> Elasticsearch:
+#####Elasticsearch:
 `cd elasticsearch`
 `sudo vim elasticsearch-6.6.0/config/elasticsearch.yml`
 >cluster.name: elk
 
-elasticsearch.yml
+```yml
 node.name: node-1
 path.data: /home/ubuntu/ekl/elasticsearch-6.6.0/data
 path.logs: /home/ubuntu/ekl/elasticsearch-6.6.0/logs
 network.host: 172.21.0.9
 http.port: 9200
+```
+
 
 
 
