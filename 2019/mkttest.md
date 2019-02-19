@@ -23,10 +23,10 @@ geoip
 `wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.tar.gz`
 
 > Kibana:
-`https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
+`wget https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
 
 > Logstash:
-`https://artifacts.elastic.co/downloads/logstash/logstash-6.6.0.tar.gz`
+`wget https://artifacts.elastic.co/downloads/logstash/logstash-6.6.0.tar.gz`
 
 > nginx:
 `sudo apt-get install nginx`
@@ -69,14 +69,11 @@ vm.max_map_count = 262144
 vm.max_map_count=262144
 ```
 
-> Kibana:
-`https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
+##### Kibana:
 
-> Logstash:
-`https://artifacts.elastic.co/downloads/logstash/logstash-6.6.0.tar.gz`
+##### Logstash:
 
 > nginx:
-`sudo apt-get install nginx`
 
 
 #### 启动
