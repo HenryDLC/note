@@ -13,7 +13,7 @@ geoip
 
 ### 安装:
 > java8:
-`apt search open-java`
+`apt search openjdk`
 `sudo apt-get install nginx`
 
 > nginx:
