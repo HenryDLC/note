@@ -85,9 +85,9 @@ bin/kibana -d
 `service nginx start|stop|reload`
 
 ### 其他组件
-> redis
-> Beats
-> geoip
+#####  redis
+#####  Beats
+#####  geoip
 
 ## 其他相关
 ```
