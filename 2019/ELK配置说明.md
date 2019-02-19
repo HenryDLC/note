@@ -132,13 +132,16 @@ sudo service nginx restart  #重启nginx检测是否存在
 ```
 
 
-make[2]: Leaving directory '/home/ubuntu/nginx/pcre2-10.32'
-make[1]: Leaving directory '/home/ubuntu/nginx/pcre2-10.32'
+make[3]: Leaving directory '/home/ubuntu/nginx/pcre-8.36'
+make[2]: Leaving directory '/home/ubuntu/nginx/pcre-8.36'
+make[1]: Leaving directory '/home/ubuntu/nginx/pcre-8.36'
 
 cp zlib.h zconf.h /usr/local/include
 chmod 644 /usr/local/include/zlib.h /usr/local/include/zconf.h
 
-./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre2-10.32 -with-zlib=/home/ubuntu/nginx/zlib-1.2.11
+./configure --prefix=/usr/local/nginx --with-pcre=make[3]: Leaving directory '/home/ubuntu/nginx/pcre-8.36'
+make[2]: Leaving directory '/home/ubuntu/nginx/pcre-8.36'
+make[1]: Leaving directory '/home/ubuntu/nginx/pcre-8.36' --with-zlib=/home/ubuntu/nginx/zlib-1.2.11
 
 
   nginx path prefix: "/usr/local/nginx"
