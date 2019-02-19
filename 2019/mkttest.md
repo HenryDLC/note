@@ -101,7 +101,14 @@ vm.max_map_count = 262144
 vm.max_map_count=262144
 ```
 
+> nginx 安装路径
+```
+/usr/sbin/nginx：主程序
+/etc/nginx：存放配置文件
+/usr/share/nginx：存放静态文件
+/var/log/nginx：存放日志
 
+```
 > 卸载nginx
 ```
 sudo apt-get remove nginx nginx-common # 卸载删除除了配置文件以外的所有文件。
