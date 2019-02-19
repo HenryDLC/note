@@ -49,15 +49,12 @@ geoip
 `tar -xzvf nginx-1.15.8.tar.gz`
 `tar -xzvf pcre-8.36.tar.gz`
 `tar -xzvf zlib-1.2.11.tar.gz`
-cd nginx-1.15.8.tar.gz
+> pcre
+cd pcre-8.36
 ./configure 
 make && make install
-
-cd pcre-8.36.tar.gz
-./configure 
-make && make install
-
-cd pcre-8.36.tar.gz
+> zlib
+cd zlib-1.2.11
 ./configure 
 make && make install
 
