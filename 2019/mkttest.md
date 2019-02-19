@@ -55,8 +55,17 @@ http.port: 9200
 
 
 ##### Kibana:
+`cd elasticsearch`
+`sudo vim /home/ubuntu/ekl/kibana-6.6.0-linux-x86_64/config/kibana.yml`
+>cluster.name: elk
+```yml
+server.host: "172.21.0.9"
+elasticsearch.hosts: ["http://172.21.0.9:9200"]
+```
+
 
 ##### Logstash:
+
 
 ##### nginx:
 
@@ -67,13 +76,7 @@ http.port: 9200
 `
 
 > Kibana:
-`cd elasticsearch`
-`sudo vim /home/ubuntu/ekl/kibana-6.6.0-linux-x86_64/config/kibana.yml`
->cluster.name: elk
-```yml
-server.host: "172.21.0.9"
-elasticsearch.hosts: ["http://172.21.0.9:9200"]
-```
+bin/kibana -d
 
 > Logstash:
 
