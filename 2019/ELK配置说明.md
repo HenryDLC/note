@@ -22,11 +22,13 @@ geoip
 > Elasticsearch:
 `wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.tar.gz`
 
-> Kibana:
-`wget https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
 
 > Logstash:
 `wget https://artifacts.elastic.co/downloads/logstash/logstash-6.6.0.tar.gz`
+
+> Kibana:
+`wget https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
+
 
 > nginx:
 `sudo apt-get install nginx`
@@ -37,6 +39,10 @@ geoip
 `tar -xzvf logstash-6.6.0.tar.gz`
 
 #### 配置:
+
+##### nginx:
+
+
 ##### Elasticsearch:
 `cd elasticsearch`
 `sudo vim elasticsearch-6.6.0/config/elasticsearch.yml`
@@ -53,6 +59,8 @@ http.port: 9200
 ```
 
 
+##### Logstash:
+
 
 ##### Kibana:
 `cd elasticsearch`
@@ -64,25 +72,23 @@ elasticsearch.hosts: ["http://172.21.0.9:9200"]
 ```
 
 
-##### Logstash:
-
-
-##### nginx:
-
 
 #### 启动
+> nginx:
+`service nginx start|stop|reload`
+
 > Elasticsearch:
 `bin/elasticsearch -d
 `
-
-> Kibana:
-bin/kibana -d
-
 > Logstash:
 
+> Kibana:
+`bin/kibana -d`
 
-> nginx:
-`service nginx start|stop|reload`
+
+
+
+
 
 ### 其他组件
 #####  redis
