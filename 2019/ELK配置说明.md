@@ -130,3 +130,7 @@ sudo apt-get autoremove # 在上面命令结束后执行，主要是卸载删除
 sudo apt-get remove nginx-full nginx-common #卸载删除两个主要的包。
 sudo service nginx restart  #重启nginx检测是否存在
 ```
+
+
+make[2]: Leaving directory '/home/ubuntu/nginx/pcre2-10.32'
+make[1]: Leaving directory '/home/ubuntu/nginx/pcre2-10.32'
