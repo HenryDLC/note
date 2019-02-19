@@ -38,7 +38,8 @@ geoip
 #### 配置:
 > Elasticsearch:
 `cd elasticsearch`
-`sudo vim elasticsearch-6.6.0/config`
+`sudo vim elasticsearch-6.6.0/config/elasticsearch.yml`
+
 
 > Kibana:
 `https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
