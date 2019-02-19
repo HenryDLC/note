@@ -49,6 +49,8 @@ network.host: 172.21.0.9
 http.port: 9200
 ```
 ```
+主意:
+不能用root用户启动Elasticsearch
 
 ```
 ```
