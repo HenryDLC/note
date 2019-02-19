@@ -31,7 +31,7 @@ geoip
 
 
 > nginx:
-`sudo apt-get install nginx`
+`wget http://nginx.org/download/nginx-1.15.8.tar.gz`
 
 #### 解压:
 `tar -xzvf elasticsearch-6.6.0.tar.gz`
