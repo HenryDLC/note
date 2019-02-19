@@ -105,7 +105,7 @@ sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 ps -ef | grep nginx
 
 > Elasticsearch:
-> export ES_HEAP_SIZE=10g
+> export ES_HEAP_SIZE=1g
 `bin/elasticsearch  -d
 `
 > Logstash:
