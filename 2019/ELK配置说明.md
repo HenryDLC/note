@@ -5,8 +5,8 @@
 java8
 nginx
 Elasticsearch
-Kibana
 Logstash
+Kibana
 
 > 其他配置:
 redis
