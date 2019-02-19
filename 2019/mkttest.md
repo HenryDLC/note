@@ -35,10 +35,10 @@ geoip
 `tar -xzvf kibana-6.6.0-linux-x86_64.tar.gz`
 `tar -xzvf logstash-6.6.0.tar.gz`
 
-##### 配置:
+#### 配置:
 > Elasticsearch:
-`wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.tar.gz`
-
+`cd elasticsearch`
+`sudo vim /config`
 > Kibana:
 `https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
 
