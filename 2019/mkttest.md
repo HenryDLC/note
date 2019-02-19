@@ -30,11 +30,24 @@ geoip
 > nginx:
 `sudo apt-get install nginx`
 
-### 解压:
+#### 解压:
 `tar -xzvf elasticsearch-6.6.0.tar.gz`
 `tar -xzvf kibana-6.6.0-linux-x86_64.tar.gz`
 `tar -xzvf logstash-6.6.0.tar.gz`
 
-### 配置:
+##### 配置:
+> Elasticsearch:
+`wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.tar.gz`
 
-其他组件
+> Kibana:
+`https://artifacts.elastic.co/downloads/kibana/kibana-6.6.0-linux-x86_64.tar.gz`
+
+> Logstash:
+`https://artifacts.elastic.co/downloads/logstash/logstash-6.6.0.tar.gz`
+
+> nginx:
+`sudo apt-get install nginx`
+
+
+
+### 其他组件
