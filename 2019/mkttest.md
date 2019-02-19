@@ -17,14 +17,15 @@ geoip
 `sudo apt-get install openjdk-8-jdk`
 
 > Elasticsearch:
-`sudo apt-get install nginx`
+`wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.tar.gz`
 
 > Kibana:
 `sudo apt-get install nginx`
 
-> Kibana:
-`sudo apt-get install nginx`> Kibana:
-`sudo apt-get install nginx`> Kibana:
+> Logstash:
+`sudo apt-get install nginx`
+
+> nginx:
 `sudo apt-get install nginx`
 
 ### 配置:
