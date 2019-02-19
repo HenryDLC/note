@@ -81,6 +81,7 @@ elasticsearch.hosts: ["http://172.21.0.9:9200"]
 `bin/elasticsearch -d
 `
 > Logstash:
+> 参考https://www.elastic.co/guide/en/logstash/current/config-examples.html
 
 > Kibana:
 `bin/kibana -d`
