@@ -31,6 +31,10 @@ geoip
 `sudo apt-get install nginx`
 
 ### 解压:
-'mkdir '
+`tar -xzvf elasticsearch-6.6.0.tar.gz`
+`tar -xzvf kibana-6.6.0-linux-x86_64.tar.gz`
+`tar -xzvf logstash-6.6.0.tar.gz`
+
 ### 配置:
+
 其他组件
