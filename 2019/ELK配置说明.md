@@ -100,6 +100,7 @@ elasticsearch.hosts: ["http://172.21.0.9:9200"]
 > nginx:
 sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 注意：-c 指定配置文件的路径，不加的话，nginx会自动加载默认路径的配置文件，可以通过-h查看帮助命令。
+重启:/usr/local/nginx/sbin/nginx -s reload
 #查看进程：
 ps -ef | grep nginx
 
