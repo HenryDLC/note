@@ -51,6 +51,7 @@ http.port: 9200
 ```
 主意:
 不能用root用户启动Elasticsearch
+打开文件数
 
 ```
 ```
