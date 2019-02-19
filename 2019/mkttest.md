@@ -1,6 +1,6 @@
 # ELK配置说明
 
-组件:
+### 组件:
 java8
 nginx
 Elasticsearch
@@ -11,9 +11,8 @@ redis
 Beats
 geoip
 
-安装:
-nginx:
-codesudo apt-get install nginx
+### 安装:
+nginx
 
-配置:
+### 配置:
 其他组件
