@@ -156,6 +156,7 @@ ps -ef | grep nginx
 
 ### 其他组件
 #####  redis
+> 参考:http://blog.51cto.com/jinlong/2056563
 #####  Beats
 #####  geoip
 
