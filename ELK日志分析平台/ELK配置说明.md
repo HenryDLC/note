@@ -42,22 +42,21 @@ grafana
 `tar -xzvf zlib-1.2.11.tar.gz`
 > 安装pcre
 `cd pcre-8.36`
-`./configure`
-`make`
-`make install`
+`sudo ./configure `
+`sudo make`
+`sudo make install`
 
 > 安装zlib
 `cd zlib-1.2.11`
-`./configure `
-`make`
-`make install`
+`sudo ./configure `
+`sudo make`
+`sudo make install`
 
 > 安装nginx
 > 参考:https://www.cnblogs.com/keithtt/p/6593866.html
 > 参考:https://blog.csdn.net/dawn_02/article/details/82589862
 `cd nginx-1.15.8`
 `./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre-8.36 --with-zlib=/home/ubuntu/nginx/zlib-1.2.11`
-`make && make install`
 `sudo make`
 `sudo make install`
 ```
