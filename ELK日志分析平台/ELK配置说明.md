@@ -159,6 +159,8 @@ ps -ef | grep nginx
 > 参考:http://blog.51cto.com/jinlong/2056563
 #####  Beats
 #####  geoip
+> http://blog.51cto.com/nosmoking/1873879
+
 
 
 ## 其他相关
