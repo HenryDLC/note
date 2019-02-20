@@ -150,7 +150,7 @@ sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 ps -ef | grep nginx
 
 > Elasticsearch:
-`bin/elasticsearch  -d
+`bin/elasticsearch
 `
 > Logstash:
 `bin/logstash -f elk_nginx_log.conf `
