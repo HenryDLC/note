@@ -42,7 +42,7 @@ grafana
 `tar -xzvf zlib-1.2.11.tar.gz`
 > 安装pcre
 `cd pcre-8.36`
-`./configure `
+`./configure`
 `make && make install`
 
 > 安装zlib
