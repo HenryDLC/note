@@ -58,6 +58,8 @@ grafana
 `cd nginx-1.15.8`
 `./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre-8.36 --with-zlib=/home/ubuntu/nginx/zlib-1.2.11`
 `make && make install`
+`sudo make`
+`sudo make install`
 ```
 http {
     include       mime.types;
@@ -92,8 +94,7 @@ server {
                 }
         }
 ```
-`make`
-`make install`
+
 
 
 
