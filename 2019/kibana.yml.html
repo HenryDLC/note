@@ -1,4 +1,4 @@
-<attachment contenteditable="false" data-atts="%5B%5D" data-aid=".atts-22c0d352-10bf-4877-9b67-39b7067bd00f"></attachment><pre class="ql-syntax" spellcheck="false"># Kibana is served by a back end server. This setting specifies the port to use.
+<attachment contenteditable="false" data-atts="%5B%5D" data-aid=".atts-22c0d352-10bf-4877-9b67-39b7067bd00f"></attachment><pre class="ql-syntax" spellcheck="false"> Kibana is served by a back end server. This setting specifies the port to use.
 #server.port: 5601
 
 # Specifies the address to which the Kibana server will bind. IP addresses and host names are both valid values.
@@ -25,7 +25,7 @@ server.host: "172.21.0.9"
 #server.name: "your-hostname"
 
 # The URLs of the Elasticsearch instances to use for all your queries.
-elasticsearch.hosts: ["http://172.21.0.9:9200"]
+elasticsearch.hosts: "http://172.21.0.9:9200"
 
 # When this setting's value is true Kibana uses the hostname specified in the server.host
 # setting. When the value of this setting is false, Kibana uses the hostname of the host
@@ -70,14 +70,14 @@ elasticsearch.hosts: ["http://172.21.0.9:9200"]
 
 # Time in milliseconds to wait for responses from the back end or Elasticsearch. This value
 # must be a positive integer.
-#elasticsearch.requestTimeout: 30000
+elasticsearch.requestTimeout: 100000
 
 # List of Kibana client-side headers to send to Elasticsearch. To send *no* client-side
 # headers, set this value to [] (an empty list).
 #elasticsearch.requestHeadersWhitelist: [ authorization ]
 
 # Header names and values that are sent to Elasticsearch. Any custom headers cannot be overwritten
-#by client-side headers, regardless of the elasticsearch.requestHeadersWhitelist configuration.
+# by client-side headers, regardless of the elasticsearch.requestHeadersWhitelist configuration.
 #elasticsearch.customHeaders: {}
 
 # Time in milliseconds for Elasticsearch to wait for responses from shards. Set to 0 to disable.
@@ -111,5 +111,5 @@ elasticsearch.hosts: ["http://172.21.0.9:9200"]
 
 # Specifies locale to be used for all localizable strings, dates and number formats.
 #i18n.locale: "en"
-                                                                                                                                                                                                                         113,1         Bot
+                                                                                                                                                                                                                       113,1         Bot
 </pre><p><br></p>

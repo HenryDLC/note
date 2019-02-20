@@ -1,0 +1,22 @@
+<attachment contenteditable="false" data-atts="%5B%5D" data-aid=".atts-bb630efb-b87d-4899-878d-84633e5df37e"></attachment><pre class="ql-syntax" spellcheck="false">input {
+    file {
+        path =&gt; [ "/usr/local/nginx/logs/access.log" ]
+        start_position =&gt; "beginning"
+        ignore_older =&gt; 0
+    }
+}
+
+filter {
+  grok {
+    match =&gt; { "message" =&gt; "%{COMBINEDAPACHELOG}" }
+  }
+  date {
+    match =&gt; [ "timestamp" , "dd/MMM/yyyy:HH:mm:ss Z" ]
+  }
+}
+
+output {
+  elasticsearch { hosts =&gt; ["172.21.0.9:9200"] }
+  stdout { codec =&gt; rubydebug }
+}
+</pre><p><br></p>
