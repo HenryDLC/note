@@ -92,6 +92,8 @@ server {
                 }
         }
 ```
+`make`
+`make install`
 
 
 
