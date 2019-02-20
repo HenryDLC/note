@@ -53,6 +53,7 @@ grafana
 `sudo make install`
 
 > 安装nginx
+> 参考:https://www.cnblogs.com/EasonJim/p/7806879.html
 > 参考:https://www.cnblogs.com/keithtt/p/6593866.html
 > 参考:https://blog.csdn.net/dawn_02/article/details/82589862
 
