@@ -12,6 +12,7 @@ Kibana
 redis
 Beats
 geoip
+grafana
 
 ### 安装:
 #### 下载:
@@ -160,6 +161,7 @@ ps -ef | grep nginx
 #####  Beats
 #####  geoip
 > http://blog.51cto.com/nosmoking/1873879
+##### grafana
 
 
 
