@@ -106,8 +106,8 @@ server {
 ```yml
 cluster.name: elk
 node.name: node-1
-path.data: /home/ubuntu/ekl/elasticsearch-6.6.0/data
-path.logs: /home/ubuntu/ekl/elasticsearch-6.6.0/logs
+path.data: /home/ubuntu/elasticsearch-6.6.0/data
+path.logs: /home/ubuntu/elasticsearch-6.6.0/logs
 # bootstrap.memory_lock: flase
 # bootstrap.system_call_filter:false
 network.host: 172.21.0.9
