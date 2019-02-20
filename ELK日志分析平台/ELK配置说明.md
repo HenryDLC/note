@@ -150,8 +150,9 @@ sudo /usr/local/nginx/sbin/nginx -c /usr/local/nginx/conf/nginx.conf
 ps -ef | grep nginx
 
 > Elasticsearch:
-`bin/elasticsearch
-`
+`bin/elasticsearch`
+
+
 > Logstash:
 `bin/logstash -f elk_nginx_log.conf `
 > 参考https://www.elastic.co/guide/en/logstash/current/config-examples.html
