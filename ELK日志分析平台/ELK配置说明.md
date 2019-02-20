@@ -41,14 +41,14 @@ grafana
 `tar -xzvf pcre-8.36.tar.gz`
 `tar -xzvf zlib-1.2.11.tar.gz`
 > 安装pcre
-cd pcre-8.36
-./configure 
-make && make install
+`cd pcre-8.36`
+`./configure ``
+make && make install`
 
 > 安装zlib
-cd zlib-1.2.11
-./configure 
-make && make install
+`cd zlib-1.2.11`
+`./configure `
+`make && make install`
 
 > 安装nginx
 > 参考:https://www.cnblogs.com/keithtt/p/6593866.html
