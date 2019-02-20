@@ -160,9 +160,9 @@ ps -ef | grep nginx
 > 参考:http://blog.51cto.com/jinlong/2056563
 #####  Beats
 #####  geoip
-> http://blog.51cto.com/nosmoking/1873879
+> 参考:http://blog.51cto.com/nosmoking/1873879
 ##### grafana
-
+> 参考:https://grafana.com/dashboards/2292
 
 
 ## 其他相关
