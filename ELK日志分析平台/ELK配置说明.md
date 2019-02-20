@@ -57,8 +57,8 @@ grafana
 > 参考:https://blog.csdn.net/dawn_02/article/details/82589862
 
 `cd nginx-1.15.8`
+pcre 和 zlib的源文件路径要检查对应:
 `./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre-8.36 --with-zlib=/home/ubuntu/nginx/zlib-1.2.11`
-pcre 和 
 `sudo make`
 `sudo make install`
 ```
