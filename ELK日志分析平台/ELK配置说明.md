@@ -43,12 +43,14 @@ grafana
 > 安装pcre
 `cd pcre-8.36`
 `./configure`
-`make && make install`
+`make`
+`make install`
 
 > 安装zlib
 `cd zlib-1.2.11`
 `./configure `
-`make && make install`
+`make`
+`make install`
 
 > 安装nginx
 > 参考:https://www.cnblogs.com/keithtt/p/6593866.html
