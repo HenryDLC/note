@@ -66,7 +66,7 @@ print("我宣你:%(name)s" % a)
 
 深入阅读:<https://www.jb51.net/article/134290.htm>
 
-formate:
+format:
 
 ```python
 a = "xxx"
