@@ -17,4 +17,7 @@ print(sys.path)
 '/Applications/PyCharm.app/Contents/helpers/pycharm_matplotlib_backend']
 '''
 ```
-sys.path返回的是一个列表的数据类型,所以当我们需要导入不同目录的文件时,可以
+sys.path返回的是一个列表的数据类型,所以当我们需要导入不同目录的文件时,可以通过向sys.path列表添加路径来使python解释器找到我们需要的文件.
+```python
+
+```
