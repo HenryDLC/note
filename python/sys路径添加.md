@@ -23,7 +23,7 @@ sys.path.insert(1, path)
 import hihi
 hihi.sea_hi()  # >>> hi
 ```
-以上示例为两个包导入:mod2导入进mod1
+以上示例为两个包导入:mod2中hihi.py导入进mod1中t.py
 ```
 .
 ├── mod1
