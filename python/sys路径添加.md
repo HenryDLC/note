@@ -23,7 +23,8 @@ sys.path.insert(1, path)
 import hihi
 hihi.sea_hi()  # >>> hi
 ```
-以上示例为两个包导入:mod2中hihi.py导入进mod1中t.py
+# 程序初始化导入
+如果程序运行,我们再更改导入文件中的代码,
 ```
 .
 ├── mod1
