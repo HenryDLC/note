@@ -23,6 +23,7 @@ sys.path.insert(1, path)
 import hihi
 hihi.sea_hi()  # >>> hi
 ```
+```
 .
 ├── mod1
 │   ├── __init__.py
