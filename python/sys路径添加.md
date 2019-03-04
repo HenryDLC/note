@@ -18,5 +18,22 @@ print(sys.path)
 ```
 sys.path返回的是一个列表的数据类型,所以当我们需要导入不同目录的文件时,可以通过向sys.path列表添加路径来使python解释器找到我们需要的文件.
 ```python
+path = './mod2'
+sys.path.insert(1, path)
+import hihi
+hihi.sea_hi()  # >>> hi
+```
+```
+.
+├── mod1
+│   ├── __init__.py
+│   └── t.py
+├── mod2
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-37.pyc
+│   │   └── hihi.cpython-37.pyc
+│   └── hihi.py
+└── test.txt
 
 ```
