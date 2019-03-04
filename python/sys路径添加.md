@@ -7,4 +7,13 @@ from 同级目录 import 同级文件
 ```python
 import sys
 print(sys.path)
+'''
+['/Users/HenryDu/PycharmProjects/untitled', 
+'/Users/HenryDu/PycharmProjects/untitled', 
+'/Users/HenryDu/anaconda3/envs/learn_py/lib/python37.zip', 
+'/Users/HenryDu/anaconda3/envs/learn_py/lib/python3.7', 
+'/Users/HenryDu/anaconda3/envs/learn_py/lib/python3.7/lib-dynload', 
+'/Users/HenryDu/anaconda3/envs/learn_py/lib/python3.7/site-packages', 
+'/Applications/PyCharm.app/Contents/helpers/pycharm_matplotlib_backend']
+'''
 ```
