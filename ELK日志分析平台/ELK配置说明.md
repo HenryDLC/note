@@ -36,10 +36,14 @@ grafana
 
 #### 安装&配置:
 
+安装gcc
+`apt-get install gcc libc6-dev`
+
 ##### nginx:
 `tar -xzvf nginx-1.15.8.tar.gz`
 `tar -xzvf pcre-8.36.tar.gz`
 `tar -xzvf zlib-1.2.11.tar.gz`
+
 > 安装pcre
 `cd pcre-8.36`
 `sudo ./configure `
