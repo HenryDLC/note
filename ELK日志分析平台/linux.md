@@ -1,8 +1,10 @@
+# 更改添加
 ubuntu:~$ vim ~/.profile
 > 添加下面内容
 export LANG="zh_CN.UTF-8"
 export LC_ALL="zh_CN.UTF-8"
-
->出现错误，说明没有安装zh_CN.UTF-8语言。
+> 查看当前系统已安装的语言
+ubuntu:~$ locale -a
+出现错误，说明没有安装zh_CN.UTF-8语言。
 安装:`sudo locale-gen zh_CN.UTF-8`
-> ubuntu:~$ locale
+ubuntu:~$ locale
