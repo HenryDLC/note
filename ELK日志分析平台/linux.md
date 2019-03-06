@@ -1,4 +1,4 @@
-# 更改添加
+# 更改添加系统UTF-8中文
 ubuntu:~$ vim ~/.profile
 > 添加下面内容
 export LANG="zh_CN.UTF-8"
