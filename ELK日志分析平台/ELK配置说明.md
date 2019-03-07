@@ -38,6 +38,7 @@ grafana
 
 安装gcc
 `apt-get install gcc libc6-dev g++`
+`sudo apt-get install build-essential`
 
 ##### nginx:
 `tar -xzvf nginx-1.15.8.tar.gz`
