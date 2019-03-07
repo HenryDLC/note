@@ -37,7 +37,7 @@ grafana
 #### 安装&配置:
 
 安装gcc
-`apt-get install gcc libc6-dev`
+`apt-get install gcc libc6-dev gcc-c++`
 
 ##### nginx:
 `tar -xzvf nginx-1.15.8.tar.gz`
