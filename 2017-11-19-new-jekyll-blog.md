@@ -6,7 +6,11 @@ date: '2017-11-19 15:51'
 
 ### 1)  安装ruby
 ```bash
-
+sudo apt-get install ruby-full build-essential zlib1g-dev
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 ```
 
 
@@ -17,7 +21,12 @@ $ gem -v
 
 ```
 
-### 8) 安装jekyll 主题vno
+### 8) 安装jekyll 
+```bash
+gem install jekyll bundler
+```
+
+主题vno
 ```bash
 $ git clone https://github.com/onevcat/vno-jekyll.git your_site
 
