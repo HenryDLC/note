@@ -69,6 +69,7 @@ grafana
 > 参考:https://www.cnblogs.com/EasonJim/p/7806879.html
 > 参考:https://www.cnblogs.com/keithtt/p/6593866.html
 > 参考:https://blog.csdn.net/dawn_02/article/details/82589862
+> 参考:http://www.nginx.cn/install
 `cd nginx-1.15.8`
 pcre 和 zlib的源文件路径要检查对应:
 `./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre-8.36 --with-zlib=/home/ubuntu/nginx/zlib-1.2.11 --with-http_ssl_module --with-openssl=/home/ubuntu/nginx/openssl-1.0.2p`
@@ -230,9 +231,6 @@ sudo apt-get autoremove # 在上面命令结束后执行，主要是卸载删除
 sudo apt-get remove nginx-full nginx-common #卸载删除两个主要的包。
 sudo service nginx restart  #重启nginx检测是否存在
 ```
-
-        #warn "$0: unable to format $files[0]\n";
-
 
 
 
