@@ -34,30 +34,30 @@ $ jekyll serve --detach
 ### n) 安装nginx
 ```bash
 > 下载nginx
-`wget http://nginx.org/download/nginx-1.15.8.tar.gz`
-`wget https://ftp.pcre.org/pub/pcre/pcre-8.36.tar.gz`
-`wget http://www.zlib.net/zlib-1.2.11.tar.gz`
+wget http://nginx.org/download/nginx-1.15.8.tar.gz
+wget https://ftp.pcre.org/pub/pcre/pcre-8.36.tar.gz
+wget http://www.zlib.net/zlib-1.2.11.tar.gz
 
 > 安装gcc
-`apt-get install gcc libc6-dev g++`
-`sudo apt-get install build-essential`
+apt-get install gcc libc6-dev g++
+sudo apt-get install build-essential
 
 > 解压nginx以及依赖:
-`tar -xzvf nginx-1.15.8.tar.gz`
-`tar -xzvf pcre-8.36.tar.gz`
-`tar -xzvf zlib-1.2.11.tar.gz`
+tar -xzvf nginx-1.15.8.tar.gz
+tar -xzvf pcre-8.36.tar.gz
+tar -xzvf zlib-1.2.11.tar.gz
 
 > 安装pcre
-`cd pcre-8.36`
-`sudo ./configure `
-`sudo make`
-`sudo make install`
+cd pcre-8.36
+sudo ./configure 
+sudo make
+sudo make install
 
 > 安装zlib
-`cd zlib-1.2.11`
-`sudo ./configure `
-`sudo make`
-`sudo make install`
+cd zlib-1.2.11
+sudo ./configure 
+sudo make
+sudo make install
 
 > 安装nginx
 cd nginx-1.15.8
