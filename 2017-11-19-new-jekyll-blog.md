@@ -26,7 +26,7 @@ $ gem -v
 gem install jekyll bundler
 ```
 
-主题vno
+安装主题vno
 ```bash
 $ git clone https://github.com/onevcat/vno-jekyll.git your_site
 
@@ -36,7 +36,7 @@ $ bundler install
 
 $ bundler exec jekyll serve
 
-$ jekyll serve --detach
+$ bundle exec jekyll serve --detach
 ```
 
 
