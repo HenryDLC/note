@@ -55,7 +55,6 @@ $ ruby -v
 
 $ gem -v
 
-$ rvm -v
 ```
 
 ### 7) 安装nginx
