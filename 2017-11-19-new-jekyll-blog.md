@@ -33,7 +33,12 @@ $ jekyll serve --detach
 
 ### n) 安装nginx
 ```bash
-安装gcc
+> 下载nginx
+`wget http://nginx.org/download/nginx-1.15.8.tar.gz`
+`wget https://ftp.pcre.org/pub/pcre/pcre-8.36.tar.gz`
+`wget http://www.zlib.net/zlib-1.2.11.tar.gz`
+
+> 安装gcc
 `apt-get install gcc libc6-dev g++`
 `sudo apt-get install build-essential`
 
@@ -56,7 +61,7 @@ $ jekyll serve --detach
 
 > 安装nginx
 cd nginx-1.15.8
-pcre 和 zlib的源文件路径要检查对应:
+# pcre 和 zlib的源文件路径要检查对应:
 ./configure --prefix=/usr/local/nginx --with-pcre=/home/ubuntu/nginx/pcre-8.36 --with-zlib=/home/ubuntu/nginx/zlib-1.2.11
 sudo make
 sudo make install`
