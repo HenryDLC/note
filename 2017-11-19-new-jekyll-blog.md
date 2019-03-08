@@ -34,9 +34,9 @@ $ cd your_site
 
 $ bundler install
 
-$ bundler exec jekyll serve
+$ 测试:bundler exec jekyll serve
 
-$ bundle exec jekyll serve --detach
+$ 后台运行:bundle exec jekyll serve --detach
 ```
 
 
