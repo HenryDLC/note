@@ -76,3 +76,4 @@ sudo make
 sudo make install`
 sudo vim /usr/local/nginx/nginx.conf
 ```
+
