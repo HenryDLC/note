@@ -60,6 +60,9 @@ grafana
 `sudo make install`
 
 > 安装openssl
+`cd openssl-1.0.2k/`
+`sudo make`
+`sudo make install`
 
 
 > 安装nginx
