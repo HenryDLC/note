@@ -22,3 +22,4 @@ echo "/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab
 # w3m终端浏览器
 `sudo apt-get install w3m w3m-img`
 `w3m google.com`
+退出:`q`
