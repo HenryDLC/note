@@ -80,7 +80,7 @@ sudo vim /usr/local/nginx/nginx.conf
 > 配置nginx
 主要更改location --> root /home/www/_site;
 每次运行`bundler exec jekyll serve`都会更新`_site`目录,生成新的静态文件
-jekyll是一个生成静态网站的程序
+jekyll是一个生成静态网站的
 ```bash
 http {
     include       mime.types;
