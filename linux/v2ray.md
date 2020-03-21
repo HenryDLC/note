@@ -1,14 +1,14 @@
-## 创建Googlecloud实例
+# 创建Googlecloud实例
 ![WechatIMG3.png](1)
 # 创建防火墙出入站规则
-### 入站
+## 入站
 ![WechatIMG4.png](2)
-### 出站
+## 出站
 ![WechatIMG5.png](3)
-## 登入SSH配置服务器
-### 获取root
+# 登入SSH配置服务器
+## 获取root
 `sudo -i`
-### 开启bbr
+## 开启bbr
 `wget --no-check-certificate -O tcp.sh https://github.com/cx9208/Linux-NetSpeed/raw/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh`
 ## 时间校准
 ### 查看当前时间
@@ -25,7 +25,7 @@
 `cat /etc/v2ray/config.json `
 
 # 配置客户端
-### 配置要求:
+### 配置要求
 ```json
 {
   "inbounds": [
@@ -62,7 +62,7 @@
   ]
 }
 ```
-### 示例:
+### 示例
 ```json
 {
   "inbounds": [
@@ -84,11 +84,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "34.87.124.228", 
+            "address": "34.87.124.227", 
             "port": 19254, 
             "users": [
               {
-                "id": "d41970d4-e56f-4a1c-922e-e5cbed28969f", 
+                "id": "d41970d4-e56f-4a1c-922e-e5cbed28969e", 
                 "alterId": 64
               }
             ]
