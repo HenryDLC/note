@@ -21,4 +21,8 @@
 `sudo bash go.sh`
 ## 开启v2ray服务
 `sudo systemctl start v2ray`
+## 查看v2ray账号
+`cat /etc/v2ray/config.json `
 
+# 配置客户端json
+> 
