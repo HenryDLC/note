@@ -6,6 +6,4 @@
 ## 出站
 ![WechatIMG5.png](3)
 # 登入SSH配置服务器
-'''shell
-
-'''
+`sudo -i`
