@@ -10,6 +10,8 @@
 `sudo -i`
 ## 开启bbr
 `wget --no-check-certificate -O tcp.sh https://github.com/cx9208/Linux-NetSpeed/raw/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh`
-## 
-
+## 时间校准
+### 查看当前时间
+`date -R`
+### 修改服务器时间(当服务器与本地时间不一致是)
 
