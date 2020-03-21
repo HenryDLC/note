@@ -24,5 +24,41 @@
 ## 查看v2ray账号
 `cat /etc/v2ray/config.json `
 
-# 配置客户端json
-> 
+# 配置客户端
+```json
+{
+  "inbounds": [
+    {
+      "port": 1080, 
+      "protocol": "socks", 
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      },
+      "settings": {
+        "auth": "noauth"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vmess", 
+      "settings": {
+        "vnext": [
+          {
+            "address": "34.87.124.227", 
+            "port": 19254, 
+            "users": [
+              {
+                "id": "d41970d4-e56f-4a1c-922e-e5cbed28969e", 
+                "alterId": 64
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
+```
+
