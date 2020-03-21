@@ -1,6 +1,6 @@
 # 谷歌服务起搭建v2ray服务
 ## 创建Googlecloud实例
-![WechatIMG3.png](1)
+![image](https://github.com/HenryDLC/learn_python/raw/master/images/learn_python.png)
 ## 创建防火墙出入站规则
 ### 入站
 ![WechatIMG4.png](2)
