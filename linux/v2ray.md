@@ -16,5 +16,9 @@
 ### 修改服务器时间(当服务器与本地时间不一致时)
 `sudo date --set="2017-01-22 16:16:23"`
 # 安装V2ray
-`wget https://install.direct/go.sh
+`wget https://install.direct/go.sh`
+## 执行脚本
+`sudo bash go.sh`
+## 开启v2ray服务
+`sudo systemctl start v2ray`
 
