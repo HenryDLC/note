@@ -6,7 +6,6 @@
 ![image](https://github.com/HenryDLC/note/blob/master/linux/image/WechatIMG4.png)
 ### 出站
 ![image](https://github.com/HenryDLC/note/blob/master/linux/image/WechatIMG5.png)
-![](![image](https://github.com/HenryDLC/note/blob/master/linux/image/WechatIMG3.png))
 ## 登入SSH配置服务器
 ### 获取root
 `sudo -i`
