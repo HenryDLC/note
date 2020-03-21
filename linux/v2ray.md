@@ -122,7 +122,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "34.87.124.228", 
+            "address": "34.87.168.234", 
             "port": 25868, 
             "users": [
               {
