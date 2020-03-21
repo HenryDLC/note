@@ -122,11 +122,11 @@
       "settings": {
         "vnext": [
           {
-            "address": "34.87.168.234", 
+            "address": "34.87.168.235", 
             "port": 25868, 
             "users": [
               {
-                "id": "404b81ac-72ac-49f0-a1be-92f04014b023", 
+                "id": "404b81ac-72ac-49f0-a1be-92f04014b024", 
                 "alterId": 64
               }
             ]
