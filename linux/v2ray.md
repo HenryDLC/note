@@ -1,11 +1,11 @@
 # 谷歌服务起搭建v2ray服务
 ## 创建Googlecloud实例
-![image](https://github.com/HenryDLC/learn_python/raw/master/images/learn_python.png)
+![image](https://github.com/HenryDLC/note/blob/master/linux/image/WechatIMG3.png)
 ## 创建防火墙出入站规则
 ### 入站
-![WechatIMG4.png](2)
+![image](https://github.com/HenryDLC/note/blob/master/linux/image/WechatIMG4.png)
 ### 出站
-![WechatIMG5.png](3)
+![image](https://github.com/HenryDLC/note/blob/master/linux/image/WechatIMG5.png)
 ## 登入SSH配置服务器
 ### 获取root
 `sudo -i`
