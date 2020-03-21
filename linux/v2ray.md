@@ -100,4 +100,41 @@
   ]
 }
 ```
+#### 示例:
+```json
+{
+  "inbounds": [
+    {
+      "port": 1080, 
+      "protocol": "socks", 
+      "sniffing": {
+        "enabled": true,
+        "destOverride": ["http", "tls"]
+      },
+      "settings": {
+        "auth": "noauth"
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vmess", 
+      "settings": {
+        "vnext": [
+          {
+            "address": "34.87.124.228", 
+            "port": 25868, 
+            "users": [
+              {
+                "id": "404b81ac-72ac-49f0-a1be-92f04014b023", 
+                "alterId": 64
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
+```
 
