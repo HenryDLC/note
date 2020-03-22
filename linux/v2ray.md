@@ -15,7 +15,7 @@
 #### 查看当前时间
 `date -R`
 #### 修改服务器时间(当服务器与本地时间不一致时)
-`sudo date --set="2020-03-21 19:23:00"`
+`sudo date --set="2020-03-22 15:14:00"`
 ## 安装V2ray
 `wget https://install.direct/go.sh`
 ### 执行脚本
