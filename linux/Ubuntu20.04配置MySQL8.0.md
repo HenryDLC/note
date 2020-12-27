@@ -27,3 +27,26 @@ dpkg --list|grep mysql
 如：sudo apt-get autoremove --purge mysql-apt-config
 
 安全设置向导mysql_secure_installation
+建立密码验证插件
+Securing the MySQL server deployment.
+
+Connecting to MySQL using a blank password.
+
+VALIDATE PASSWORD PLUGIN can be used to test passwords and improve security. It checks the strength of password and allows the users to set only those passwords which are secure enough. Would you like to setup VALIDATE PASSWORD plugin?
+
+Press y|Y for Yes, any other key for No: y 
+选择密码规则
+There are three levels of password validation policy:
+
+LOW    Length >= 8
+#长度大于等于8
+MEDIUM Length >= 8, numeric, mixed case, and special characters
+#长度大于等于8，数字、大小写字母、特殊符号
+STRONG Length >= 8, numeric, mixed case, special characters and dictionary                  file
+#长度大于等于8，数字、大小写字母、特殊符号和字典文件（慎选！）
+
+Please enter 0 = LOW, 1 = MEDIUM and 2 = STRONG: 1
+Please set the password for root here.
+
+New password: （输入你的密码）
+Re-enter new password: （再次输入你的密码）
