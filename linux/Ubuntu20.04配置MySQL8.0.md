@@ -26,7 +26,11 @@ dpkg --list|grep mysql
 继续删除剩余依赖项，
 如：sudo apt-get autoremove --purge mysql-apt-config
 
+
+
+
 安全设置向导mysql_secure_installation
+参考网址:https://mal-suen.github.io/2018/05/27/MySQL%E5%AE%89%E5%85%A8%E8%AE%BE%E7%BD%AE%E5%91%BD%E4%BB%A4mysql_secure_installation/
 建立密码验证插件
 Securing the MySQL server deployment.
 
@@ -73,4 +77,13 @@ Success.
 
  - Removing privileges on test database...
 Success.
+
+
 Done
+Reloading the privilege tables will ensure that all changes made so far will take effect immediately.
+
+Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
+#是否重新加载权限表
+Success.
+
+All done!
