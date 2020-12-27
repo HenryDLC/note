@@ -50,3 +50,27 @@ Please set the password for root here.
 
 New password: （输入你的密码）
 Re-enter new password: （再次输入你的密码）
+创建符合规则的新密码
+Estimated strength of the password: 50 		#密码强度
+Do you wish to continue with the password provided?(Press y|Y for Yes, any other key for No) : y
+删除匿名用户
+By default, a MySQL installation has an anonymous user, allowing anyone to log into MySQL without having to have a user account created for them. This is intended only for testing, and to make the installation go a bit smoother.
+You should remove them before moving into a production environment.
+
+Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
+Success.
+禁止远程登录
+Normally, root should only be allowed to connect from 'localhost'. This ensures that someone cannot guess at the root password from the network.
+
+Disallow root login remotely? (Press y|Y for Yes, any other key for No) : y
+Success.
+删除测试数据表
+By default, MySQL comes with a database named 'test' that anyone can access. This is also intended only for testing, and should be removed before moving into a production environment.
+
+Remove test database and access to it? (Press y|Y for Yes, any other key for No) : y
+ - Dropping test database...
+Success.
+
+ - Removing privileges on test database...
+Success.
+Done
