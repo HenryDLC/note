@@ -17,4 +17,13 @@ mysql> GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'%' WITH GRANT OPTION;
 卸载MySQL8.0
 首先在终端中查看MySQL的依赖项：
 dpkg --list|grep mysql
+卸载：
+sudo apt-get remove mysql-common
+sudo apt-get autoremove --purge mysql-server-8.0
+清除残留数据：dpkg -l|grep ^rc|awk ‘{print$2}’|sudo xargs dpkg -P
+查看剩余依赖
+dpkg --list|grep mysql
+继续删除剩余依赖项，
+如：sudo apt-get autoremove --purge mysql-apt-config
 
+安全设置向导mysql_secure_installation
