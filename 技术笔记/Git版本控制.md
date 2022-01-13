@@ -51,7 +51,7 @@ git status
 提交代码到暂存区:
 
 ```sh
-git add 文件/目录
+git add 文件/目录 
 ```
 
 提交代码到本地仓库
