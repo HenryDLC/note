@@ -7,9 +7,6 @@
 mysql -uroot -ppassword
 ```
 
-库
-=
-
 查看所有数据库
 -------
 
