@@ -14,6 +14,10 @@ docker run -p 本地主机端口号:容器服务端口号 --name 容器名字 [-
 docker start 容器ID //启动容器
 docker stop 容器ID //终止容器
 docker rmi 镜像名称orID //删除镜像
+重启docker 镜像自动运行
+docker run -id --restart=always  镜像名称:tag 容器还没有创建，在运行容器的时候加入–restart=always参数
+docker update --restart=always 容器名字或者容器ID   容器已经运行的情况，运行以下命令：
+docker update --restart=no 容器名字或者容器ID   停止自动启动
 ```
 
 postgersql
@@ -484,7 +488,7 @@ RabbitMQ
 ========
 
 ```python
-docker run -it --rm -d --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management
+docker run -it -d --restart=always --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.9-management
 -- 默认密码guest
 ```
 
