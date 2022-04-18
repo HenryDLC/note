@@ -31,7 +31,7 @@ grafana
 
 > nginx:
 `wget http://nginx.org/download/nginx-1.15.8.tar.gz`
-`wget https://ftp.pcre.org/pub/pcre/pcre-8.36.tar.gz`
+`wget https://github.com/PhilipHazel/pcre2/releases/download/pcre2-10.40/pcre2-10.40.tar.gz`
 `wget http://www.zlib.net/zlib-1.2.11.tar.gz`
 `wget https://www.openssl.org/source/openssl-1.0.2p.tar.gz`
 
