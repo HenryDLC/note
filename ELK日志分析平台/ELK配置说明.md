@@ -61,6 +61,7 @@ grafana
 
 > 安装openssl
 `cd openssl-1.0.2k/`
+`sudo ./config`
 `sudo make`
 `sudo make install`
 
