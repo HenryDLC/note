@@ -133,6 +133,26 @@ init_connect='SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci'
 !includedir /etc/mysql/conf.d/
 ```
 
+```mysql
+-- 远程连接新建用户
+mysql> CREATE USER 'henrydu'@'localhost' IDENTIFIED BY '707116148';
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'henrydu'@'localhost' WITH GRANT OPTION;
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+mysql> CREATE USER 'henrydu'@'%' IDENTIFIED BY '707116148';
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'henrydu'@'%' WITH GRANT OPTION;
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> flush privileges;
+Query OK, 0 rows affected (0.00 sec)
+```
+
+
+
 M1
 
 ### mysql8版本
